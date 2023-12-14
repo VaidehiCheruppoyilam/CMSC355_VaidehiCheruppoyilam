@@ -1,0 +1,7 @@
+def calculate_total_gum(initial_gum, strawberry_gum, bubble_gum):
+    return initial_gum + strawberry_gum + bubble_gum
+
+class TestCalculateTotalGum(unittest.TestCase):
+    def test_total_gum_with_positive_values(self):
+        result = calculate_total_gum(10, 70, 10)
+        self.assertEqual(result, 90)
