@@ -1,0 +1,5 @@
+def test_total_gum_with_zero_values(self):
+        result = calculate_total_gum(0, 0, 0)
+        self.assertEqual(result, 0)
+if __name__ == "__main__":
+    unittest.main()
